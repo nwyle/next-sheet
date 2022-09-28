@@ -10,6 +10,6 @@
   "scripts": {
     "wasm": "wasm-pack build ./rust --target web",
     "dev": "vite",
-    "build": "vite build"
+    "build": "npm run wasm && vite build"
   }
 }

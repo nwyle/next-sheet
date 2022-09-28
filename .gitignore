@@ -2,3 +2,4 @@
 /rust/target
 /rust/pkg
 .DS_Store
+/dist
